@@ -1,0 +1,18 @@
+%YAML 1.2
+---
+
+# host infos
+host_string: '10.73.73.105'
+#host_port: '9090'
+host_user: 'root'
+host_pass: 'redhat'
+
+# manually configured selenium hub
+selenium_hub: ''
+
+# avocado config
+avocado_results_dir: '/home/weiwang/work/autowork/avocado-results'
+
+# versions of pkg/sys under test
+test_pkg_ver: 'cockpit-ovirt-dashboard-0.13.8-1'
+test_sys_ver: 'rhvh-4.3.6.2-0.20190904.0'
